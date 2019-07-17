@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: chocolate;
+}
+
+.container{
+    max-width: 500px;
+}
+
+input[type-text],
+input[type=text]:focus{
+    color: #9abca4;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+
+.todos li{
+    background: #9abca4;
+}
+
+.delete{
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+.filtered{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
